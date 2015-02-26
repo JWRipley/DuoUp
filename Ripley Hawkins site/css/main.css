@@ -1,0 +1,83 @@
+a{
+	color: black;
+}
+header, section {
+	border-style: solid;
+	}
+header > section {
+	float: left;
+}
+nav {
+	clear: both;
+}
+.clearable{
+	clear: both;
+}
+body{
+	background-color: #9e1d20;
+	font-family: Arial;
+	 
+	
+}
+#headleft, #headright {
+	width: 132px;
+	height: 150px;
+}
+#headmiddle {
+	width: 712px;
+	height: 150px;
+	text-align: center;
+	vertical-align: middle;
+	line-height:100px;
+	font-size: 300%;
+	font-style: italic;
+
+}
+#main {
+	background-color: #bebdb9;
+	
+	padding: 25px;
+	
+}
+#mainWrapper {
+	padding-left: 20px;	
+	padding-right: 20px;	
+	
+}
+#mainFooter {
+	text-align: center;
+	padding-top:25px;
+}
+#map-canvas {
+	width: 250px;
+	height: 200px;
+	border-style: solid;
+}
+#name {
+	font-style: bold;
+}
+#playerInfo{
+	
+	
+}
+#profilePic {
+	width: 99px;
+	height: 99px;
+	border-style: solid;
+	
+
+}
+#title {
+	font-size: 300%;
+	padding-bottom: 10px;
+}
+#underConstruction{
+
+	
+	height: 500px;
+	Background-image: url("../images/AnimeUnderConstruction.png");
+}
+#wrapper {
+	width: 1000px;
+	margin: 0 auto;
+}	

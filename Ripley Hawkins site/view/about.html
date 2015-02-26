@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html lang = "en-US"> 
+<head>
+	<meta charset="utf-8"/>
+		<title>Duo Up!</title>
+		<link rel="stylesheet" href="../css/main.css" />
+		<link rel="stylesheet" href="../css/menu.css" />
+		<script src="../js/jQuery-2.1.3.js"></script>
+		<script src="../js/main.js"></script>
+		<link rel="shortcut icon" href="../images/logo/favicon.ico" >
+<style>
+
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+      function initialize() {
+        var mapCanvas = document.getElementById('map-canvas');
+        var mapOptions = {
+          center: new google.maps.LatLng(22.435112, 146.203238),
+          zoom: 8,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+
+</head>
+<body class =" horizontalMenu ">
+	<div id = "wrapper">
+		<header>
+			<section id = "headleft">
+			
+			</section>
+			<section id = "headmiddle" class="clickable">
+			
+			</section>
+			<section id = "headright">
+		
+			</section>
+			<div class = "clearable"></div>
+			</header>
+		<nav>
+			
+		</nav>
+		<section id="main">
+		<div class = "clearable"></div>
+			This site is designed by <a href="mailto:j.w.ripley@eagle.clarion.edu?Subject=To%20Jess" target="_top">Jess Ripley</a> and <a href="mailto:L.C.Hawkins@eagle.clarion.edu?Subject=To%20Lance" target="_top">Lance Hawkins Jr.</a>
+			<div>
+			We are a small company located in the Mariana Trench looking to get ahead in the industry. We have nowhere to go but up! 
+			</div>
+		<div id="map-canvas"></div>
+		</section>
+		
+
+		<footer id="mainFooter" class="clickable">
+		
+		</footer>
+	</div>
+</body>
+</html>
